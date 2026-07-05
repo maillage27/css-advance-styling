@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  background-color: #b7eeff;
+  align-items: center;
+  padding: 20px;
+}
+.banner-content {
+  flex: 1;
+  text-align: center;
+}
+.banner-img-container {
+  flex: 1;
+}
+.banner-img-container img{
+  width: 100%;
+}
+.banner-content button{
+    background-color: #ffa7a7;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-content button:hover{
+    background-color: #ff3131;
+}
